@@ -1,0 +1,1434 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16244 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/dev/Unity/ProjectionsReflections
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59546
+Successfully changed project path to: C:/dev/Unity/ProjectionsReflections
+C:/dev/Unity/ProjectionsReflections
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/dev/Unity/ProjectionsReflections/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001418 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 33.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (347ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (133ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2619.
+Total: 3.072700 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.724600 ms  DeleteObjects: 0.064200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PlayerPackage.unitypackage
+  artifactKey: Guid(35ab611ce5d273c428999dc27e776d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerPackage.unitypackage using Guid(35ab611ce5d273c428999dc27e776d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd33452c2f6e625b8b8cec7d8cc93a57') in 0.031505 seconds 
+  Import took 0.035190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.088610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.4 MB.
+System memory in use after: 98.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.569100 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.080600 ms MarkObjects: 2.300200 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.198403 seconds.
+  path: Assets/Background Package/Tilemap
+  artifactKey: Guid(6bbed303a4ddec44c9d1c3ef318b5942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap using Guid(6bbed303a4ddec44c9d1c3ef318b5942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98b5f340db10e1e9feeef4d41dcf180') in 0.007064 seconds 
+  Import took 0.009929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Background Package/Tilemap/TX Tileset Stone Ground.png
+  artifactKey: Guid(54dc3ea74a271da46bf8e39c30db1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/TX Tileset Stone Ground.png using Guid(54dc3ea74a271da46bf8e39c30db1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450da8803f67b70a4ba41bc899de4579') in 0.170735 seconds 
+  Import took 0.184390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Background Package
+  artifactKey: Guid(e954b6c4a6c5aab4d9d1c71be83a8c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package using Guid(e954b6c4a6c5aab4d9d1c71be83a8c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf54029499966d78e7c8b0a84650be3') in 0.005812 seconds 
+  Import took 0.008740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Background Package/Tilemap/TX Tileset Grass.png
+  artifactKey: Guid(c0410ae03860c4d49a48857115dbc919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/TX Tileset Grass.png using Guid(c0410ae03860c4d49a48857115dbc919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3cf0bfedac0eb12c41d4a0fd4fa3f3') in 0.167678 seconds 
+  Import took 0.170979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Background Package/Tilemap/TX Tileset Wall.png
+  artifactKey: Guid(1b84fc2e16fcd194282a60c937e7f97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/TX Tileset Wall.png using Guid(1b84fc2e16fcd194282a60c937e7f97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a32eb69ac6b0dadc000a6850df9a45') in 0.088128 seconds 
+  Import took 0.091191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.704083 seconds.
+  path: Assets/Background Package/Tilemap/Palette
+  artifactKey: Guid(6e3c87fd5d90aac44b33b4a2a9e590ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Palette using Guid(6e3c87fd5d90aac44b33b4a2a9e590ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77818bbed1ccc4b9e57117ec35cacea') in 0.005268 seconds 
+  Import took 0.008300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480274 seconds.
+  path: Assets/Background Package/Tilemap/Palette/Floor Tile.prefab
+  artifactKey: Guid(78c89004b043fdc4f95d43d3af21eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Palette/Floor Tile.prefab using Guid(78c89004b043fdc4f95d43d3af21eed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c6e36131b5887b67bc8f244a60a017') in 0.039700 seconds 
+  Import took 0.043388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Background Package/Tilemap/Palette/Wall Tile.prefab
+  artifactKey: Guid(048c1dcbbe10aaf41b350b8c5e0452c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Palette/Wall Tile.prefab using Guid(048c1dcbbe10aaf41b350b8c5e0452c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1b3f5202f70332b9ee1d41150050b0') in 0.021732 seconds 
+  Import took 0.024753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Background Package/Tilemap/Palette/Grass Tile.prefab
+  artifactKey: Guid(f7f6df5ef9e08e945a27814d17270892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Palette/Grass Tile.prefab using Guid(f7f6df5ef9e08e945a27814d17270892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99001f90f6ecf65a76218d37297f4af8') in 0.027763 seconds 
+  Import took 0.031104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.567632 seconds.
+  path: Assets/Background Package/Tilemap/Tiles
+  artifactKey: Guid(71eb9e560740ae64abde952047a9974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles using Guid(71eb9e560740ae64abde952047a9974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da022c83e2714d81837572c188dc8dd') in 0.005880 seconds 
+  Import took 0.008994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060777 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_0.asset
+  artifactKey: Guid(e48e56caaf3f0764da5be5b4efc24dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_0.asset using Guid(e48e56caaf3f0764da5be5b4efc24dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf408a514e2ee683ce89856bd0df9d0') in 0.017993 seconds 
+  Import took 0.021308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_13.asset
+  artifactKey: Guid(09250b681f8031c4596caf40775a2066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_13.asset using Guid(09250b681f8031c4596caf40775a2066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e891521e4df7deca59bf01a04d8ce1') in 0.013233 seconds 
+  Import took 0.016027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_19.asset
+  artifactKey: Guid(61573357cf6cb7a41bde51c25dae8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_19.asset using Guid(61573357cf6cb7a41bde51c25dae8dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c547d88a7674a1c4f53f44274b97e9e1') in 0.011520 seconds 
+  Import took 0.014427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_53.asset
+  artifactKey: Guid(600cb4eb3244f4d4f8d507c11e81e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_53.asset using Guid(600cb4eb3244f4d4f8d507c11e81e9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b29ac12bfa9c58e0bcfe8424e83bfc') in 0.008829 seconds 
+  Import took 0.011689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_4.asset
+  artifactKey: Guid(258e7610e3e2a15498b11cba2e52f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_4.asset using Guid(258e7610e3e2a15498b11cba2e52f0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55540e3a62f8426f36b33a26075c6374') in 0.011403 seconds 
+  Import took 0.014265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_39.asset
+  artifactKey: Guid(7df10003f7dab5148b9f4c78b9e22cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_39.asset using Guid(7df10003f7dab5148b9f4c78b9e22cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbd75265d3fa02377d255642cd8a1ef') in 0.015383 seconds 
+  Import took 0.018073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_12.asset
+  artifactKey: Guid(e2616dca23eccda49a5c6a6c5a4c6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_12.asset using Guid(e2616dca23eccda49a5c6a6c5a4c6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b3eff3d3a1274956ce4b92d0ba12ca') in 0.018103 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_7.asset
+  artifactKey: Guid(f457d8d1c4c399e4d9cc0c8d54fc855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_7.asset using Guid(f457d8d1c4c399e4d9cc0c8d54fc855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5b08bb607e9fa985b0b2966de3772e') in 0.014376 seconds 
+  Import took 0.018147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_3.asset
+  artifactKey: Guid(6a9ef94a2ea24ce40ac1e6b02f2a7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_3.asset using Guid(6a9ef94a2ea24ce40ac1e6b02f2a7f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61319f87fe586418185a8709701a1ebe') in 0.016695 seconds 
+  Import took 0.019602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_17.asset
+  artifactKey: Guid(911be542e32a087429b60427730ee8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_17.asset using Guid(911be542e32a087429b60427730ee8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7331ce3e0865da2a5e42cbacf3541ab') in 0.014741 seconds 
+  Import took 0.017535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_36.asset
+  artifactKey: Guid(0e6faf1a9c767474bb808183a34c1d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_36.asset using Guid(0e6faf1a9c767474bb808183a34c1d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7289b878f8ed7a2d311684f6c30afe') in 0.010111 seconds 
+  Import took 0.013110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_30.asset
+  artifactKey: Guid(658883cb8a79ecb4ba19d9d4dfe714b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_30.asset using Guid(658883cb8a79ecb4ba19d9d4dfe714b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315091647db1b5565b2dd5ac4be0edf0') in 0.009185 seconds 
+  Import took 0.012075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_15.asset
+  artifactKey: Guid(b262cbae0970bf9428b7109bded0afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_15.asset using Guid(b262cbae0970bf9428b7109bded0afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d3a604dd6b48915a60d46992e8db47') in 0.014151 seconds 
+  Import took 0.017007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_32.asset
+  artifactKey: Guid(d1d4a77aa458678459f5b9119a028c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_32.asset using Guid(d1d4a77aa458678459f5b9119a028c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37db74fb5479786758e5a33d3f8b9c86') in 0.024675 seconds 
+  Import took 0.027673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_38.asset
+  artifactKey: Guid(411f6d50ac2f08340b775d9e23a6ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_38.asset using Guid(411f6d50ac2f08340b775d9e23a6ff2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628074e4df529dcbc2a11c026e92666b') in 0.012881 seconds 
+  Import took 0.015685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_34.asset
+  artifactKey: Guid(40c7096ef62d1364ab49d52a98631454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_34.asset using Guid(40c7096ef62d1364ab49d52a98631454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385f7d38ca70f7d9ce22c9476ea54ffd') in 0.010282 seconds 
+  Import took 0.013333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_49.asset
+  artifactKey: Guid(fb46a125a4ad3d444bf70c00fcd6177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_49.asset using Guid(fb46a125a4ad3d444bf70c00fcd6177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01f8483b15c800e3048506a0b49ffe5') in 0.008815 seconds 
+  Import took 0.011962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_46.asset
+  artifactKey: Guid(5163024efbcb501409a1ad85047d44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_46.asset using Guid(5163024efbcb501409a1ad85047d44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87184fce220c77e7445d459c236a568d') in 0.012636 seconds 
+  Import took 0.015852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_52.asset
+  artifactKey: Guid(e3a2d64242fc95740841521f0113cca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_52.asset using Guid(e3a2d64242fc95740841521f0113cca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee53a00b1c1acc7743ad1b354781ca7') in 0.011328 seconds 
+  Import took 0.014422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_1.asset
+  artifactKey: Guid(cf359ba75500cf340953163ae7816132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_1.asset using Guid(cf359ba75500cf340953163ae7816132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe85bb8137b5e77de23025de8630682') in 0.009468 seconds 
+  Import took 0.012833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_62.asset
+  artifactKey: Guid(46767e6a047aadb4cace84936de3f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_62.asset using Guid(46767e6a047aadb4cace84936de3f73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8fd8d494f0459b55157de171296ce7') in 0.009295 seconds 
+  Import took 0.012279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_3.asset
+  artifactKey: Guid(7a310bdc16570334b9114a47808fec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_3.asset using Guid(7a310bdc16570334b9114a47808fec08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a8a5c0ff4cdfe2dead3184efc49e99') in 0.017558 seconds 
+  Import took 0.020395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_22.asset
+  artifactKey: Guid(f7ccc2d1606a19a46acac72c75fffd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_22.asset using Guid(f7ccc2d1606a19a46acac72c75fffd63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17611daeef060ba915b7901ebaeec970') in 0.014019 seconds 
+  Import took 0.016893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_37.asset
+  artifactKey: Guid(99f4c600c77bf6046a519c2a9654aa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_37.asset using Guid(99f4c600c77bf6046a519c2a9654aa0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b86c11d2d85b20b79ad2f29ae22319') in 0.011067 seconds 
+  Import took 0.014292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_51.asset
+  artifactKey: Guid(6c2c67c92d24a154191781c950febddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_51.asset using Guid(6c2c67c92d24a154191781c950febddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b2e7c5cf3930ab722036da57c270ab') in 0.009629 seconds 
+  Import took 0.012757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_1.asset
+  artifactKey: Guid(3a87535abb180094e87ad17c596a5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_1.asset using Guid(3a87535abb180094e87ad17c596a5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ceb802bb3ea5693404856f51dd330a') in 0.010347 seconds 
+  Import took 0.013550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_55.asset
+  artifactKey: Guid(57027ff0e660a964295ca264da6046eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_55.asset using Guid(57027ff0e660a964295ca264da6046eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317d1ac44f08e458b6ef4c7255c7e543') in 0.015016 seconds 
+  Import took 0.017833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_6.asset
+  artifactKey: Guid(51b3579d44f2de94ea9af9a0ccba28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_6.asset using Guid(51b3579d44f2de94ea9af9a0ccba28ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af6c258588bc68708cc642955d7afc7') in 0.015168 seconds 
+  Import took 0.018050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_6.asset
+  artifactKey: Guid(2c89a6e560cf0c84ab513e6f25e8ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_6.asset using Guid(2c89a6e560cf0c84ab513e6f25e8ff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd338ef29dc91edd4c3ac5af7670abc36') in 0.010967 seconds 
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_28.asset
+  artifactKey: Guid(9f7e8f241aee0424486e17523e467f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_28.asset using Guid(9f7e8f241aee0424486e17523e467f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db4f97cc3c5ed1a5b74f55e85a4043e') in 0.010691 seconds 
+  Import took 0.013983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_35.asset
+  artifactKey: Guid(8ef06d2e168ddf64bb8188c730d8e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_35.asset using Guid(8ef06d2e168ddf64bb8188c730d8e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111d1056d23d4314dedc43805e3fcfd7') in 0.010182 seconds 
+  Import took 0.013405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_44.asset
+  artifactKey: Guid(295e8a462d9ee76409fda89b72943802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_44.asset using Guid(295e8a462d9ee76409fda89b72943802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee60e69f2a08cabe8dfb7ae9b7e49928') in 0.014861 seconds 
+  Import took 0.017868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_7.asset
+  artifactKey: Guid(fa391c5396ce3694680057073b70ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_7.asset using Guid(fa391c5396ce3694680057073b70ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef8e5626c3beefcf57b66590b8e2297') in 0.010772 seconds 
+  Import took 0.013998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_2.asset
+  artifactKey: Guid(ff8c63a4726c5d94e8cb5e311edb5b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_2.asset using Guid(ff8c63a4726c5d94e8cb5e311edb5b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893bd5ae30a032b744e0efa696134e54') in 0.010225 seconds 
+  Import took 0.013258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_0.asset
+  artifactKey: Guid(ee37fd742d3b1d84fb353fe2f51bdfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_0.asset using Guid(ee37fd742d3b1d84fb353fe2f51bdfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24dbb2dd9944f4cf57d97d59fe996a2') in 0.010285 seconds 
+  Import took 0.013390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_48.asset
+  artifactKey: Guid(0955c36fa0464334495a3123b105a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_48.asset using Guid(0955c36fa0464334495a3123b105a8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4442c47c9fcb4d14a666860ee6e5551f') in 0.012102 seconds 
+  Import took 0.015040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_40.asset
+  artifactKey: Guid(8e9f2f1b920778a4ba1959a4247e54e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_40.asset using Guid(8e9f2f1b920778a4ba1959a4247e54e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9d8db0f4dc2093ee09453a78fb13df') in 0.015795 seconds 
+  Import took 0.018761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_54.asset
+  artifactKey: Guid(24c445a7d29ba1b4a9b79ceb2eb08d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_54.asset using Guid(24c445a7d29ba1b4a9b79ceb2eb08d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7b39d63ce7f845d9051e3ec0f6a92') in 0.014980 seconds 
+  Import took 0.017907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_21.asset
+  artifactKey: Guid(e48218ce8c3c82240b5b7dcbef07d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_21.asset using Guid(e48218ce8c3c82240b5b7dcbef07d657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ebfa25d0a3f0d104d4996c8817edc6') in 0.020767 seconds 
+  Import took 0.024193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_60.asset
+  artifactKey: Guid(e009b8b993bf8294ab09dbe0c510c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_60.asset using Guid(e009b8b993bf8294ab09dbe0c510c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae219d5cc708eaddc1c4b63a6064ae89') in 0.012960 seconds 
+  Import took 0.016261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_4.asset
+  artifactKey: Guid(4dcac0e9e8e4d214f96e166904abbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_4.asset using Guid(4dcac0e9e8e4d214f96e166904abbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37ba10190d4c1f1fd64d41f29d18481') in 0.009473 seconds 
+  Import took 0.012707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_41.asset
+  artifactKey: Guid(a3ee6da9500c9f344bb7875dfe5e9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_41.asset using Guid(a3ee6da9500c9f344bb7875dfe5e9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e58f8b187314c49a17045b7be4a3bb7') in 0.010369 seconds 
+  Import took 0.013513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_42.asset
+  artifactKey: Guid(0a687a4968627e24da896bb6cb99b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_42.asset using Guid(0a687a4968627e24da896bb6cb99b907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0af4cc4a21216f6856c698da7661c3') in 0.010110 seconds 
+  Import took 0.013157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_47.asset
+  artifactKey: Guid(834ff9927de2d4440bd1b327126c8ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_47.asset using Guid(834ff9927de2d4440bd1b327126c8ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885fe468d1b6f383c600634ccb5fe79a') in 0.014495 seconds 
+  Import took 0.017477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_5.asset
+  artifactKey: Guid(aceb7126ca18fb24895eb29932e1bc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_5.asset using Guid(aceb7126ca18fb24895eb29932e1bc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32adafb17a9d77a1148593297d81ab42') in 0.011133 seconds 
+  Import took 0.014071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_43.asset
+  artifactKey: Guid(98d0d5faa40b68d408c0251042f7ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_43.asset using Guid(98d0d5faa40b68d408c0251042f7ffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8143a7190b1c6b312b23693b86970f1') in 0.012167 seconds 
+  Import took 0.015390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_57.asset
+  artifactKey: Guid(64790b03008a92243a87d46845edc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_57.asset using Guid(64790b03008a92243a87d46845edc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e070f1163f1ec5aced385ae992c494fa') in 0.012339 seconds 
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_29.asset
+  artifactKey: Guid(1313cf5d9fc375b4bb8b655b3c38f9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_29.asset using Guid(1313cf5d9fc375b4bb8b655b3c38f9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b98ba5216f166bebd034c6d1104c91') in 0.009789 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_26.asset
+  artifactKey: Guid(523f2b0e9c6ada443971ae021b5725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_26.asset using Guid(523f2b0e9c6ada443971ae021b5725a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4502335e3fd682b00ff8d5cda24361e8') in 0.013406 seconds 
+  Import took 0.016769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_24.asset
+  artifactKey: Guid(9adaa6c719a04e24c972f374c6dfbe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_24.asset using Guid(9adaa6c719a04e24c972f374c6dfbe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c205dbcf1fd7160e96a801f4b58957') in 0.020688 seconds 
+  Import took 0.023867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_58.asset
+  artifactKey: Guid(23463cdbe49f82d40b392866f5c0bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_58.asset using Guid(23463cdbe49f82d40b392866f5c0bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8c1ecaa3b291477b12168ef2f5a617') in 0.011130 seconds 
+  Import took 0.014577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_56.asset
+  artifactKey: Guid(d3cd8f041e19a2a4d95f6df8c7e26c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_56.asset using Guid(d3cd8f041e19a2a4d95f6df8c7e26c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176bf2df8f36384136f470d1d9a88b08') in 0.013801 seconds 
+  Import took 0.016744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_31.asset
+  artifactKey: Guid(53bfa71f7c996e04e967a722a451236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_31.asset using Guid(53bfa71f7c996e04e967a722a451236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427c0b9fd1da0ceee027b28aaa1d7b9') in 0.015568 seconds 
+  Import took 0.018613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_16.asset
+  artifactKey: Guid(6ad4c3889df34e84185a5679f06b2709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_16.asset using Guid(6ad4c3889df34e84185a5679f06b2709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26948008819c3da0521ba211bf7ddb54') in 0.010144 seconds 
+  Import took 0.013149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_33.asset
+  artifactKey: Guid(ed9ab805e90ac7149b17f949ac37b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_33.asset using Guid(ed9ab805e90ac7149b17f949ac37b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24851cb72d909b9e0c55dc483b96b4c') in 0.010257 seconds 
+  Import took 0.013358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_5.asset
+  artifactKey: Guid(81be8f308d4d04945811dba30a8825e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_5.asset using Guid(81be8f308d4d04945811dba30a8825e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a59467c0ff7e04c28b5ef7f73c28ed') in 0.009711 seconds 
+  Import took 0.012809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_11.asset
+  artifactKey: Guid(107a72a418cad7944a425c9727fd8cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_11.asset using Guid(107a72a418cad7944a425c9727fd8cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45848f98ca11f79b14ecfc24a81d01aa') in 0.013293 seconds 
+  Import took 0.016732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_9.asset
+  artifactKey: Guid(850b998f71176504aafd492f44811c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_9.asset using Guid(850b998f71176504aafd492f44811c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8f2a9707d430714f8b4525edf9685c') in 0.012686 seconds 
+  Import took 0.016337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_45.asset
+  artifactKey: Guid(26613fe662621e946acca62986eae142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_45.asset using Guid(26613fe662621e946acca62986eae142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7027ac5608bcb59adb54e0d068c39a7') in 0.013393 seconds 
+  Import took 0.017035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_20.asset
+  artifactKey: Guid(78932e849c0b09345aa02bd6bcf5a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_20.asset using Guid(78932e849c0b09345aa02bd6bcf5a55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb1cc536e3bb1705cc10c5db2995b8f') in 0.012339 seconds 
+  Import took 0.015459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_25.asset
+  artifactKey: Guid(1ce1d8e0cfed95a4d91a8eec9a96e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_25.asset using Guid(1ce1d8e0cfed95a4d91a8eec9a96e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f24059a5d1301bd8179e1118f6c23c') in 0.012037 seconds 
+  Import took 0.015426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_61.asset
+  artifactKey: Guid(52fe572d94be7ff479876f2d3bd1c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_61.asset using Guid(52fe572d94be7ff479876f2d3bd1c0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd249d80bb08fb043baa235fc034cdbb') in 0.013105 seconds 
+  Import took 0.016096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_50.asset
+  artifactKey: Guid(3e18bf25e1df24d42bfe664323e6fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_50.asset using Guid(3e18bf25e1df24d42bfe664323e6fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3875c5019d71eac35df9b8f326ec53be') in 0.016061 seconds 
+  Import took 0.019246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_8.asset
+  artifactKey: Guid(ddf5d480165a5b044936fff3c45ce213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_8.asset using Guid(ddf5d480165a5b044936fff3c45ce213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1dcaafdf303c8f53530a7b59775b8b1') in 0.012051 seconds 
+  Import took 0.015229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_59.asset
+  artifactKey: Guid(1f1559b791d0fbb47931c6a5e5cfb7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_59.asset using Guid(1f1559b791d0fbb47931c6a5e5cfb7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686afeb21a9c4d04e2bcc8a8f22c74bc') in 0.024373 seconds 
+  Import took 0.027609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_10.asset
+  artifactKey: Guid(bbe5a1c75ab187c45aac13f78159fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_10.asset using Guid(bbe5a1c75ab187c45aac13f78159fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf49adab0c6554cbf3892a72820285b4') in 0.011298 seconds 
+  Import took 0.014352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_27.asset
+  artifactKey: Guid(e067f4b14b11e4b43b18a9a288cafb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_27.asset using Guid(e067f4b14b11e4b43b18a9a288cafb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe288a7882b13a900169f843929a67f2') in 0.014189 seconds 
+  Import took 0.017072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_63.asset
+  artifactKey: Guid(cee86fed092e87240bc619ea362316d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_63.asset using Guid(cee86fed092e87240bc619ea362316d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642d9c04e4f32705dde8e6cc41f9e8b6') in 0.012244 seconds 
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_2.asset
+  artifactKey: Guid(f0622407740b9854d9c2cd8d6943ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_2.asset using Guid(f0622407740b9854d9c2cd8d6943ce03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6aa40ae59693aa70d535e22aed374d') in 0.011951 seconds 
+  Import took 0.014771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_14.asset
+  artifactKey: Guid(55a24c61f699cf04c8494665dbd7106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_14.asset using Guid(55a24c61f699cf04c8494665dbd7106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd1436da42a080d878c3e8598cc94fd') in 0.010083 seconds 
+  Import took 0.013210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_8.asset
+  artifactKey: Guid(79aaa0b30660ac24dbccc1ddf5349731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_8.asset using Guid(79aaa0b30660ac24dbccc1ddf5349731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bc7aca45967aa15e8e0c82ae26e984') in 0.009348 seconds 
+  Import took 0.012352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_18.asset
+  artifactKey: Guid(d4e2b40294ef1d8429e634aa4966bda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_18.asset using Guid(d4e2b40294ef1d8429e634aa4966bda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddec6cb0acac1c28df360b2d4152fb63') in 0.010776 seconds 
+  Import took 0.014515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_23.asset
+  artifactKey: Guid(1d812356d9669e94ca4222035f065dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Grass_23.asset using Guid(1d812356d9669e94ca4222035f065dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ffbaa241a6d9939480d42cf7ecb413') in 0.012569 seconds 
+  Import took 0.015585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027612 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_9.asset
+  artifactKey: Guid(c131c74b0dc176145b6c79a1f16175ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_9.asset using Guid(c131c74b0dc176145b6c79a1f16175ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f010ce71b5cb93a181c4c4bc40127ed3') in 0.009763 seconds 
+  Import took 0.012690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_11.asset
+  artifactKey: Guid(8acfaa59b6318304888908cacb491c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_11.asset using Guid(8acfaa59b6318304888908cacb491c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adbfffd8171f0e15397ca02176c43fd') in 0.013566 seconds 
+  Import took 0.016336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_25.asset
+  artifactKey: Guid(7665f9ed0837500449a85fca9e933ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_25.asset using Guid(7665f9ed0837500449a85fca9e933ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7838ce9f8dd23c842ee9b4a5bdcb40e') in 0.013297 seconds 
+  Import took 0.016121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_20.asset
+  artifactKey: Guid(daaab23239ddbac40b4f0968d9ee0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_20.asset using Guid(daaab23239ddbac40b4f0968d9ee0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a28fd026ba7f3ff2eac4f2c83b6ec81') in 0.012758 seconds 
+  Import took 0.015672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_23.asset
+  artifactKey: Guid(54e274df2ad3e9d499f37bbd5d8f7175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_23.asset using Guid(54e274df2ad3e9d499f37bbd5d8f7175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0f9d9f5d8fc597fe0267f3564c9d74') in 0.014946 seconds 
+  Import took 0.018131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_19.asset
+  artifactKey: Guid(20a9d74ebbb718e488091f2128836046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_19.asset using Guid(20a9d74ebbb718e488091f2128836046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39a865d4a8b1575c93899426ac4477d') in 0.014467 seconds 
+  Import took 0.017332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_26.asset
+  artifactKey: Guid(032946e606e8cbb4888076569675cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_26.asset using Guid(032946e606e8cbb4888076569675cd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5e9a999dc11977e6cf88fa41266d61') in 0.023140 seconds 
+  Import took 0.026183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_21.asset
+  artifactKey: Guid(1d6bcf5f251ccfc4b80f0b6793d22735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_21.asset using Guid(1d6bcf5f251ccfc4b80f0b6793d22735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314fef871f6aad60f2c3364081875735') in 0.013654 seconds 
+  Import took 0.016433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_12.asset
+  artifactKey: Guid(ce93b9d1e140ab443a2bc1c241cb10d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_12.asset using Guid(ce93b9d1e140ab443a2bc1c241cb10d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2152f9f64d8aeee42d542afdbceab39') in 0.011236 seconds 
+  Import took 0.014480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_18.asset
+  artifactKey: Guid(b3364adb6301ee8458ceddde41189065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_18.asset using Guid(b3364adb6301ee8458ceddde41189065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304d2deac0467c46959a201822b837af') in 0.010732 seconds 
+  Import took 0.013930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_10.asset
+  artifactKey: Guid(39b793fbb8afc014e9ec67abfde40ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_10.asset using Guid(39b793fbb8afc014e9ec67abfde40ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b8b3d1cbed386e6c7d7808bc0be73b') in 0.010746 seconds 
+  Import took 0.013737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_15.asset
+  artifactKey: Guid(07790cfbe086860419e7d3cce8fd0259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_15.asset using Guid(07790cfbe086860419e7d3cce8fd0259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff52d0635eaa25729250485aae93e68') in 0.016460 seconds 
+  Import took 0.019568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_24.asset
+  artifactKey: Guid(40777a318f687da4db1a933e687952fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_24.asset using Guid(40777a318f687da4db1a933e687952fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf36130360fa79bb3340f8131257cc1') in 0.011231 seconds 
+  Import took 0.014451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_22.asset
+  artifactKey: Guid(cde7f5c86de87d743b834254f5761134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_22.asset using Guid(cde7f5c86de87d743b834254f5761134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8361baef7fb72821fcfbe256d4075230') in 0.023829 seconds 
+  Import took 0.026741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_16.asset
+  artifactKey: Guid(2fc13b774f9e1a34685c4c59a7c33a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_16.asset using Guid(2fc13b774f9e1a34685c4c59a7c33a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9501fee590a59ffa93635f2f4a639499') in 0.014670 seconds 
+  Import took 0.017429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_17.asset
+  artifactKey: Guid(84b5f6c8d4d729f4b9a29b89f3f3968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_17.asset using Guid(84b5f6c8d4d729f4b9a29b89f3f3968b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa26984dfb08b77319ae4ada1fe60501') in 0.012943 seconds 
+  Import took 0.015791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_14.asset
+  artifactKey: Guid(ee48d0fffe2d8e44185af13d0c353f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_14.asset using Guid(ee48d0fffe2d8e44185af13d0c353f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0de1a05fa6c196544d2a6669555f5ed') in 0.015346 seconds 
+  Import took 0.018188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_13.asset
+  artifactKey: Guid(bb0daef1b8587c4489408532dc3cff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_13.asset using Guid(bb0daef1b8587c4489408532dc3cff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec2732d8d070183d0ff6e6e9812651d') in 0.012384 seconds 
+  Import took 0.015377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094916 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_27.asset
+  artifactKey: Guid(a21c22132351d2a4b9581dd71c55b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_27.asset using Guid(a21c22132351d2a4b9581dd71c55b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0973837a1d9e8922e5c239bdc98bc03f') in 0.012392 seconds 
+  Import took 0.015514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_43.asset
+  artifactKey: Guid(8105218793f66b0409319c0efe388286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_43.asset using Guid(8105218793f66b0409319c0efe388286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b5fae2cc6e123334b7c5ae67b9ce8e') in 0.011933 seconds 
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_28.asset
+  artifactKey: Guid(fac6fc2020e75394cb8dd850acd88c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_28.asset using Guid(fac6fc2020e75394cb8dd850acd88c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ad1de5bf8b14826231af36e0198aa3') in 0.015261 seconds 
+  Import took 0.018247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_38.asset
+  artifactKey: Guid(195b9c3b821462a43a17f4a002861610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_38.asset using Guid(195b9c3b821462a43a17f4a002861610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f060609878bdecc3ab1b5aa396529f') in 0.010625 seconds 
+  Import took 0.014285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_36.asset
+  artifactKey: Guid(90551f08e40e101459ff660c22e5167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_36.asset using Guid(90551f08e40e101459ff660c22e5167b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9f93158605e223f1ef1ead8855197f') in 0.010089 seconds 
+  Import took 0.013151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_3.asset
+  artifactKey: Guid(4d4671820e417e2469c19dade362581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_3.asset using Guid(4d4671820e417e2469c19dade362581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218a1f5ddcdd402b343daa66d6669f98') in 0.013656 seconds 
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_49.asset
+  artifactKey: Guid(2c4bfb9034b203145bfe01c121954b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_49.asset using Guid(2c4bfb9034b203145bfe01c121954b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200e087a000fd33c123253204a1d9457') in 0.014480 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_48.asset
+  artifactKey: Guid(7a23b492a848ed14387b85b292b9673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_48.asset using Guid(7a23b492a848ed14387b85b292b9673b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003aa556e6cbfa0611041cb4aca464e9') in 0.015211 seconds 
+  Import took 0.018178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_31.asset
+  artifactKey: Guid(dc2d12a2ecc6b82408af41cba8cf5aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_31.asset using Guid(dc2d12a2ecc6b82408af41cba8cf5aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768cdab973ffe3c8dff56dcff3491367') in 0.012366 seconds 
+  Import took 0.015563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_40.asset
+  artifactKey: Guid(8e583c04418c1f442b4dd8cbe84480e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_40.asset using Guid(8e583c04418c1f442b4dd8cbe84480e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fbbd1af32502c5f3f73a4d6a4eac2f') in 0.012452 seconds 
+  Import took 0.015324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_32.asset
+  artifactKey: Guid(86685d376aa96e34fb4c4d7e685430a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_32.asset using Guid(86685d376aa96e34fb4c4d7e685430a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6512f78488f2d836f332916d267aa1a4') in 0.010232 seconds 
+  Import took 0.013253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_12.asset
+  artifactKey: Guid(eaaa77b6d7ba1c04bad3910d72399d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_12.asset using Guid(eaaa77b6d7ba1c04bad3910d72399d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ca1d1e901f598b6957c152ae818b25') in 0.021244 seconds 
+  Import took 0.024469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_39.asset
+  artifactKey: Guid(7f258c33a760ecd409f54c798dbcf36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_39.asset using Guid(7f258c33a760ecd409f54c798dbcf36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550ef7ffd7c6b833dfaf1bdeecffa5c0') in 0.016139 seconds 
+  Import took 0.019207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_46.asset
+  artifactKey: Guid(028e9ad3fe0811d44b4a627e8288e0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_46.asset using Guid(028e9ad3fe0811d44b4a627e8288e0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12fe240d01a8a7e94accd23a7604f04') in 0.014013 seconds 
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_34.asset
+  artifactKey: Guid(23d3d353630e0d74ca446c4eb4bf8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_34.asset using Guid(23d3d353630e0d74ca446c4eb4bf8c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b049de05b7f7d81dea3ae52ec1087a5') in 0.010099 seconds 
+  Import took 0.013015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_45.asset
+  artifactKey: Guid(d344aa69fdded964ea3c80a7547d9819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_45.asset using Guid(d344aa69fdded964ea3c80a7547d9819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc82eb3e3955e75f451c3b118b60a51') in 0.010122 seconds 
+  Import took 0.013086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_8.asset
+  artifactKey: Guid(b69e186f2195336469fd528a4476a9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_8.asset using Guid(b69e186f2195336469fd528a4476a9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6cc06a135968d6f7f0cd6873ddee249') in 0.010245 seconds 
+  Import took 0.013286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_11.asset
+  artifactKey: Guid(0c20af80f8d49184094aa0cc391a6de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_11.asset using Guid(0c20af80f8d49184094aa0cc391a6de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e833bc40662d27066caa82e8a903706e') in 0.021448 seconds 
+  Import took 0.024761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_0.asset
+  artifactKey: Guid(23e68619b896dc94da4f4ce12e534961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_0.asset using Guid(23e68619b896dc94da4f4ce12e534961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476175c033a4145a5e902b08bf3e840a') in 0.011897 seconds 
+  Import took 0.014894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_37.asset
+  artifactKey: Guid(ab77ec538bcf7b24496aa676324e0941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_37.asset using Guid(ab77ec538bcf7b24496aa676324e0941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888fe15b56eacabf0596b4c6e5f71a34') in 0.009761 seconds 
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_29.asset
+  artifactKey: Guid(c2ee942e82388f7469f5e64f0fe96742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_29.asset using Guid(c2ee942e82388f7469f5e64f0fe96742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509650c2efc7c0cb879d428a8428a07c') in 0.010261 seconds 
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_33.asset
+  artifactKey: Guid(525948a75a093f94f856f9fe2c390a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_33.asset using Guid(525948a75a093f94f856f9fe2c390a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9120ba1541ddd6a934d1837858a9a46c') in 0.009950 seconds 
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_42.asset
+  artifactKey: Guid(c0126ca25d7bdb44abe0ffe8f696f924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_42.asset using Guid(c0126ca25d7bdb44abe0ffe8f696f924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376080d73e49273d666a260b362d433d') in 0.011123 seconds 
+  Import took 0.014381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_4.asset
+  artifactKey: Guid(3ac2d24d72ea4724885c6b5d96eb1381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_4.asset using Guid(3ac2d24d72ea4724885c6b5d96eb1381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305ad3249cdbf6141eb34b8e176b3a66') in 0.014331 seconds 
+  Import took 0.017231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_6.asset
+  artifactKey: Guid(2de1c5f2d43a4d14ca6306205bcca182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_6.asset using Guid(2de1c5f2d43a4d14ca6306205bcca182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e3277d2393a1b1b2a5c6dbf58e888') in 0.013457 seconds 
+  Import took 0.016341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_10.asset
+  artifactKey: Guid(bbec44dd01a2a0f479512f0aae31b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_10.asset using Guid(bbec44dd01a2a0f479512f0aae31b694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2978a794cb349e2107b21a7d504493') in 0.013398 seconds 
+  Import took 0.016382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_30.asset
+  artifactKey: Guid(b0f9288ea1119014785ad1d16d9b2888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_30.asset using Guid(b0f9288ea1119014785ad1d16d9b2888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fc08c4ec8e93b46a15adfb6bd62683') in 0.013960 seconds 
+  Import took 0.016993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_35.asset
+  artifactKey: Guid(5dfab5c6f37f85d40b65b33acde8f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_35.asset using Guid(5dfab5c6f37f85d40b65b33acde8f9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d53a50fb0d0fcc10f2a32b5546eea3d') in 0.018624 seconds 
+  Import took 0.021586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_1.asset
+  artifactKey: Guid(74c9e6013e4581444baac17f97ba6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_1.asset using Guid(74c9e6013e4581444baac17f97ba6ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086def61f986cccfb974e7972caefece') in 0.013361 seconds 
+  Import took 0.016446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_2.asset
+  artifactKey: Guid(28edcc615d692b04dbfd7af99ebf1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_2.asset using Guid(28edcc615d692b04dbfd7af99ebf1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce42a1e8841f1767eb7f35255b2deef') in 0.014122 seconds 
+  Import took 0.017168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_7.asset
+  artifactKey: Guid(1044a575a28aae84f8d583c1ce550adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_7.asset using Guid(1044a575a28aae84f8d583c1ce550adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f2a48f7674b38f2d03815178730ade') in 0.012571 seconds 
+  Import took 0.015403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_41.asset
+  artifactKey: Guid(6e7e0b65f194cc844848892bd4a46cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_41.asset using Guid(6e7e0b65f194cc844848892bd4a46cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b32d603df9573f3689c1bbd7f947607') in 0.010078 seconds 
+  Import took 0.013077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_44.asset
+  artifactKey: Guid(a16531bdb54497f48b893ac2661366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_44.asset using Guid(a16531bdb54497f48b893ac2661366b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68add1c1cc624f562bfa60f68d1e41e') in 0.010210 seconds 
+  Import took 0.013271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_47.asset
+  artifactKey: Guid(204821a0990ce344a9f5bafe8cdb7d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Stone Ground_47.asset using Guid(204821a0990ce344a9f5bafe8cdb7d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44933c46b8327c0286b48cc00b075760') in 0.020473 seconds 
+  Import took 0.023541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_9.asset
+  artifactKey: Guid(21f089dde1dc6f74c868f53f94d771f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_9.asset using Guid(21f089dde1dc6f74c868f53f94d771f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2848a6f923d584a97303dd4a0b0331f') in 0.012972 seconds 
+  Import took 0.016345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_5.asset
+  artifactKey: Guid(6260a26857f37b741a48f86637d4855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_5.asset using Guid(6260a26857f37b741a48f86637d4855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03707febb28cd4346fb9263e936ec467') in 0.010124 seconds 
+  Import took 0.013575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_23.asset
+  artifactKey: Guid(29c9710e1f0b8f74a90f98032ef10981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_23.asset using Guid(29c9710e1f0b8f74a90f98032ef10981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27840b4915c72499519b4ae865cf65e8') in 0.012444 seconds 
+  Import took 0.015477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_14.asset
+  artifactKey: Guid(abeb471c2c7645a41882b2a90ccb3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_14.asset using Guid(abeb471c2c7645a41882b2a90ccb3867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac20984dc2e5be4ef1bff915a21c9c33') in 0.011551 seconds 
+  Import took 0.014748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_24.asset
+  artifactKey: Guid(1cb530cdab1017b45b42835fb4414f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_24.asset using Guid(1cb530cdab1017b45b42835fb4414f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df7c7d8d6c47f90f4154eb0746c985') in 0.010881 seconds 
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_18.asset
+  artifactKey: Guid(30c929c779608234aa5d60b7b1694a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_18.asset using Guid(30c929c779608234aa5d60b7b1694a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b778a228e3b6c444496d067d1c890d9') in 0.018505 seconds 
+  Import took 0.021489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_17.asset
+  artifactKey: Guid(30fdac672d16af24e8356178cb1c848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_17.asset using Guid(30fdac672d16af24e8356178cb1c848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71883306291c81f6fd0eb989dad83286') in 0.013749 seconds 
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_20.asset
+  artifactKey: Guid(9169da72f505b514aaf84719c0ca5e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_20.asset using Guid(9169da72f505b514aaf84719c0ca5e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03536ff8c7ee8860690e4ae9c13f2be8') in 0.014638 seconds 
+  Import took 0.017495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_22.asset
+  artifactKey: Guid(7b0ac6e7e93fc9e4e9dd865a1dda1883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_22.asset using Guid(7b0ac6e7e93fc9e4e9dd865a1dda1883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f0e30c1973d4cae90bb99af363c011') in 0.013456 seconds 
+  Import took 0.017772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_16.asset
+  artifactKey: Guid(0f20f3cc5b0a19449ae051ea09cd7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_16.asset using Guid(0f20f3cc5b0a19449ae051ea09cd7f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31f28792513ba6b45d17c5947829ade') in 0.013372 seconds 
+  Import took 0.016283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_13.asset
+  artifactKey: Guid(1fc87ea7c6f4fde47a02a5027ffe4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_13.asset using Guid(1fc87ea7c6f4fde47a02a5027ffe4e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28162ca3e651e63f9bc839c95311474f') in 0.014068 seconds 
+  Import took 0.017623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_26.asset
+  artifactKey: Guid(03995b918b158b4418ec6d430a54e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_26.asset using Guid(03995b918b158b4418ec6d430a54e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad1f30a7ea1294a551f4d62a6f7f57f') in 0.025083 seconds 
+  Import took 0.027893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_25.asset
+  artifactKey: Guid(0bc4bbf6de7585242b92fb5c070b1385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_25.asset using Guid(0bc4bbf6de7585242b92fb5c070b1385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0147f9b5759c36c46291f8949e1aaea') in 0.014360 seconds 
+  Import took 0.017136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_15.asset
+  artifactKey: Guid(ba7cf1e3d97652b4f8dc7c9aef692353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_15.asset using Guid(ba7cf1e3d97652b4f8dc7c9aef692353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d7e0f24d39ae55f25b29ab45f59c4e') in 0.010754 seconds 
+  Import took 0.014088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_21.asset
+  artifactKey: Guid(0d91e555fbb33b24889c3514a6f689dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_21.asset using Guid(0d91e555fbb33b24889c3514a6f689dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a9e4a5b5eb60be67c01b0b152cd3ea') in 0.012612 seconds 
+  Import took 0.016153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_27.asset
+  artifactKey: Guid(c7ea32d349617b14e9df714a08f36eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background Package/Tilemap/Tiles/TX Tileset Wall_27.asset using Guid(c7ea32d349617b14e9df714a08f36eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e19b179d7dabefa4e83cc9f7614de3a') in 0.014005 seconds 
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.977766 seconds.
+  path: Assets/WallCollision.cs
+  artifactKey: Guid(30a9dc548a009b14c99aceefa6a6a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallCollision.cs using Guid(30a9dc548a009b14c99aceefa6a6a74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482d7f1daf4312fc6a387a19eb663d68') in 0.007438 seconds 
+  Import took 0.011205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.266422 seconds.
+  path: Assets/SwordReflect.cs
+  artifactKey: Guid(31b67d7176a6c7043a5ae4089c41ce74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SwordReflect.cs using Guid(31b67d7176a6c7043a5ae4089c41ce74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841161d41198e0a5c80d73a641018c3c') in 0.005215 seconds 
+  Import took 0.008394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302578 seconds.
+  path: Assets/PlayerMovement.cs
+  artifactKey: Guid(6e4275e7db7006d4497bdf33821d08ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerMovement.cs using Guid(6e4275e7db7006d4497bdf33821d08ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a3bd6e68a91d17cc67f66efdfd796e') in 0.005520 seconds 
+  Import took 0.008892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.304397 seconds.
+  path: Assets/playerControls.cs
+  artifactKey: Guid(adc181d04e453374bbd2f4044db2c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/playerControls.cs using Guid(adc181d04e453374bbd2f4044db2c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23abebbfad3344379210522523b007c') in 0.005118 seconds 
+  Import took 0.008270 seconds .
+
